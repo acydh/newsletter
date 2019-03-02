@@ -1,5 +1,3 @@
-// jshint esversion:6
-
 const express = require("express");
 const bodyParser = require("body-parser");
 const request = require("request");
@@ -37,7 +35,7 @@ app.post("/", function(req, res) {
   });
 
   var options = {
-    url: "https://us17.api.mailchimp.com/3.0/lists/ba9ed36ab7",
+    url: "",
     method: "POST",
     headers: {
       authorization: "acydh 322e537019542317ad8ef5d4f227b671-us17"
